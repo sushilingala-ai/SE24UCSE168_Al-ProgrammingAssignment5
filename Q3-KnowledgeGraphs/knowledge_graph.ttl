@@ -1,0 +1,20 @@
+@prefix kg: <http://academic-kg.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kg:AlanTuring rdfs:label "Alan Turing" ;
+    kg:pioneered kg:ArtificialIntelligence ;
+    kg:studiedAt kg:Cambridge .
+
+kg:JohnMcCarthy rdfs:label "John McCarthy" ;
+    kg:invented kg:LISP ;
+    kg:won kg:TuringAward ;
+    kg:workedAt kg:MIT .
+
+kg:MachineLearning kg:subFieldOf kg:ArtificialIntelligence .
+
+kg:MarvinMinsky rdfs:label "Marvin Minsky" ;
+    kg:pioneered kg:NeuralNetworks ;
+    kg:workedAt kg:MIT .
+
+kg:NeuralNetworks kg:subFieldOf kg:ArtificialIntelligence .
+
